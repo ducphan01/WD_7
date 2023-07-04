@@ -1,0 +1,359 @@
+/* CSS Document */
+html {
+  scroll-behavior: smooth;
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+p{
+	font-size:0.8em;
+	line-height: 1.7em;
+	color:#6A6A6A;
+	font-weight: 300
+}
+#wrapper{
+	position: relative
+}
+#back-to-top{
+	position: fixed;
+	z-index: 1000;
+	right:50px;
+	bottom:50px;
+	color: #E79715;
+	font-size: 2em;
+	display: none
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*	NAVI*/
+nav{
+	width:100%;
+	padding: 30px 0;
+	position: fixed;
+	background: rgba(255,255,255,0.5);
+}
+.row{
+	margin:0 15px
+}
+nav figure{
+	float: left;
+/*	background: #FF7678*/
+}
+.nav-menu{
+	float:right;
+/*	background: #9FFFFD;*/
+	box-sizing: border-box;
+	line-height: 33px
+
+}
+.nav-menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right:20px;
+/*	font-weight:bolder*/
+}
+.nav-menu a{
+	text-decoration: none;
+	color:#585858
+}
+/*		BANNER*/
+#banner{
+	background-repeat: no-repeat;
+	background-image: url(../img/home.jpg);
+	width: 100vw;
+	height:100vh;
+	color:white;
+	display: table;
+/*	tạo lớp phủ đen */
+	background-color: rgba(0,0,0,0.5);
+	background-blend-mode:multiply;
+}
+.banner-content{
+	display: table-cell;
+	
+    vertical-align: middle;
+    text-align: center;
+}
+#banner h1{
+	font-size: 5em;
+	font-weight: 700;
+}
+#banner a{
+	color:white;
+}
+.social{
+	margin-bottom: 3.5%
+}
+.social a{
+/*	background: #FFBFC0;*/
+/*	padding:0 1%;*/
+	margin:0 1%;
+}
+.scroll-down{
+	font-size: 2em;
+/*	background: #FF7E80*/
+}
+/*		ABOUT*/
+#about{
+	box-sizing: border-box;
+	padding-top: 90px;
+}
+/*	ABOUT-introduce*/
+.about-introduce{
+	height:407px;
+}
+.about-image{
+	width:50%;
+/*	background: #FFDDDE;*/
+	float:left;
+	box-sizing: border-box;
+	padding: 0 15px
+}
+.about-image img{
+	width:100%;
+}
+.about-text{
+	width: 50%;
+	height:407px;
+/*	background: #F0FFC4;*/
+	float:right;
+	box-sizing: border-box;
+	padding: 0 15px;
+	display: table;
+	color:#6A6A6A
+}
+h5{
+	font-weight: 300;
+	font-size: 150%
+}
+.text{
+	display: table-cell;
+	vertical-align: middle;
+}
+/*	ABOUT-service*/
+.about-ser{
+	width:100%;
+/*	height:300px;*/
+	background: #f5f5f5;
+	box-sizing: border-box;
+	padding: 90px 0;
+	margin:90px 0 0;
+/*	chú ý cách dùng chỗ này*/
+	display: table;
+	
+}
+.ab-box{
+	width:25%;
+	text-align: center;
+	float:left;
+/*	background: #DB8AFF;*/
+	color:#888888;
+	box-sizing: border-box;
+	padding:0 35px;
+/*	margin-bottom: 30px*/
+	display: table
+}
+.ab-box i{
+	font-size: 2.5em;
+	margin-bottom: 20px;
+	color:#4D4D4D;
+}
+.ab-box h4{
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size:0.8em;
+	letter-spacing: 0.3em;
+	color: black;
+	
+}
+/*	PORTFOLIO*/
+#portfolio{
+/*	background: #FFA7A8;*/
+	width: 100%;
+	height:auto;
+/*	background: #78D3CE;*/
+	text-align: center;
+	padding-top: 90px
+}
+#portfolio{
+	
+}
+.container {
+  overflow: hidden;
+}
+
+.filterDiv {
+  float: left;
+/*  background-color: #2196F3;*/
+  color: #ffffff;
+  width: 360px;
+height: 360px;
+	box-sizing: border-box;
+	padding: 10px;
+/*  line-height: 100px;*/
+  text-align: center;
+  margin: 2px;
+  display: none; /* Hidden by default */
+	position: relative
+}
+.videobutton{
+	position: relative;
+}
+.iconbutton{
+	z-index: 199;
+	position: absolute;
+	color:white;
+	background: rgba(0,0,0,0.5);
+	left:40%;
+	top:40%;
+	padding: 30px;
+	border-radius: 50%;
+}
+.filterDiv img{
+	width:100%;
+}
+.filterDiv img:hover{
+	box-shadow:  0 3px 10px 0 rgba(0, 0, 0, 0.45);
+}
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: transparent;
+  cursor: pointer;
+margin-bottom: 30px;
+	color: #6C6C6C;
+	transition-delay: 10s
+}
+
+/* Add a light grey background on mouse-over */
+.btn:hover {
+}
+
+/* Add a dark background to the active button */
+.btn.active {
+/*  background-color: #666;*/
+  color: black;
+}
+/*	CONTACT*/
+#contact{
+/*	height:600px*/
+}
+
+.ctact-title{
+	text-align: center;
+	margin:90px 0 60px;
+/*	background: #FF9294*/
+}
+.ctact-icon-box{
+	width:60%;
+	background: #B0FBAF;
+	text-align: center;
+	box-sizing: border-box;
+	margin:0 auto;
+/*	padding:30px 0*/
+}
+.ctact-box{
+	width:33.33%;
+	float: left;
+/*	background: #A8A1FB;*/
+}
+.ctact-box i{
+	color:white;
+	background: #191919;
+	padding:20px;
+	border-radius: 50%;
+	margin-bottom: 15px;
+}
+/*	FORM*/
+form{
+/*	background: #C0FFE4;*/
+	margin-top:0px;
+}
+.container-form{
+	width:60%;
+	margin: 200px auto 90px;
+}
+.col-6{
+	width:50%;
+	box-sizing: border-box;
+	padding: 0 10px;
+	float: left;
+	margin-bottom: 40px;
+/*	background: #74FFF8*/
+}
+.col-12{
+	width:100%;
+	box-sizing: border-box;
+	padding: 10px 10px 0;
+	float: left;
+		margin-bottom: 30px;
+/*	background: #C7FFB7;*/
+	
+}
+input[type=textbox]{
+	border:none;
+	border-bottom: 1px solid #CDCDCD;
+	height:50px;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+input[type=email]{
+	border:none;
+	border-bottom: 1px solid #CDCDCD;
+	height:50px;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+}
+textarea{
+	border:none;
+	border-bottom: 1px solid #CDCDCD;
+	height:120px;
+	width:100%;
+	font-family: 'Poppins', sans-serif;
+}
+.button{
+	width: 200px;
+	background: #FF888A;
+/*	margin-left:250px;*/
+
+	margin: 0 auto;
+	display: block
+}
+input[type=submit]{
+	text-align: center;
+	box-sizing: border-box;
+	padding: 10px 40px;
+	border-radius: 40px;
+/*	margin-top:90px;*/
+	border: 2px solid #747474;
+	background-color: rgba(255,255,255,0);
+	color:#222222;
+}
+/*	FOOTER*/
+footer{
+	text-align: center;
+	background: #222222;
+	color:#838383;
+	padding: 90px 0
+}
+.fter{
+	margin:0 0 1.3% 0
+}
+.fter a{
+	color:#DBDBDB
+}

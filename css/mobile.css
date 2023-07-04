@@ -1,0 +1,89 @@
+/* CSS Document */
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}
+	}
+/*
+@media (min-width: 992px){
+.container {
+    width: 970px;
+	}
+}
+@media (min-width: 768px){
+.container {
+    width: 750px;
+	}
+}
+*/
+@media screen and (max-width:414px){
+	#banner h1{
+		font-size: 3em;
+		
+	}
+	.container{
+
+	}
+/*	ABOUT*/
+	#about{
+		height: auto
+	}
+	.about-image{
+		width: 100%;
+	}
+	.about-text{
+		width:100%;
+		height:auto;
+		margin-top: 25px;
+	}
+	.about-ser{
+		padding-bottom: 30px
+	}
+	.ab-box{
+		width: 100%;
+		height: auto;
+		box-sizing: border-box;
+		padding: 0 4%;
+		margin-bottom: 60px
+	}
+/*	PORTFOLIO*/
+	.section-title{
+    padding: 0px 0 45px 0;
+	}
+	.btn{
+		padding: 12px 10px;
+/*		background: #FFB6B7;*/
+		margin-bottom: 0px
+	}
+	.filterDiv{
+		width:50%;
+		height: auto;
+		padding: 3px 6px;
+		box-sizing: border-box;
+		margin: 0px;
+/*		margin-top: 30px*/
+	}
+	.ctact-title{
+		box-sizing: border-box;
+		padding: 0px 30px
+	}
+	.iconbutton{
+		padding: 20px;
+		margin:-5px
+	}
+/*	FORM*/
+	.container-form{
+		width: 100%;
+	}
+	.col-6{
+		width: 100%
+	}
+	.ctact-icon-box{
+		width: 100%;
+	
+	}
+	.ctact-box{
+		width: 100%;
+		margin-bottom: 60px
+	}
+}
